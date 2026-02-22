@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💰 Student Expense Tracker</h1>
+
+        <div class="form">
+            <input type="text" id="description" placeholder="Expense (e.g. Transport)">
+            <input type="number" id="amount" placeholder="Amount (R)">
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+
+        <h2>Total: R<span id="total">0</span></h2>
+
+        <ul id="expense-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
